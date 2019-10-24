@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>abcd</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
+    <!--integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"-->
+</head>
+<body>
+    <button type="button"
+            onclick="document.getElementById('demo').innerHTML = Date()">
+        Click here to display the time.
+    </button>
+
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="image/landscape/godawari.jpg" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+
+    <button type="button" onclick="document.getElementById('first').innerText = fun()">
+        Click here
+    </button>
+
+        <script>
+            function fun() {
+                alert("Hello World!!!")
+            }
+        </script>
+
+    <p id="demo"></p>
+</body>
+</html>
